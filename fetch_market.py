@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import math
 import os
+import time
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -87,10 +88,10 @@ def _from_akshare(asset: Asset) -> pd.DataFrame:
 
 
 def _from_yfinance(asset: Asset) -> pd.DataFrame:
-    # Ten calendar days are requested so the five-day observation window still
-    # has a prior close after weekends and most holidays.
+    # Keep a wider fetch buffer so the five-natural-day selection still has a
+    # prior close around long exchange holidays or sparse upstream responses.
     end = datetime.now(SHANGHAI).date() + timedelta(days=1)
-    start = end - timedelta(days=10)
+    start = end - timedelta(days=30)
     frame = yf.download(
         asset.yf_symbol,
         start=start.isoformat(),
@@ -104,6 +105,19 @@ def _from_yfinance(asset: Asset) -> pd.DataFrame:
     return frame
 
 
+def _load_with_retry(loader: Callable[[Asset], pd.DataFrame], asset: Asset) -> pd.DataFrame:
+    last_error: Exception | None = None
+    for attempt in range(3):
+        try:
+            return loader(asset)
+        except Exception as exc:
+            last_error = exc
+            if attempt < 2:
+                time.sleep(2 ** attempt)
+    assert last_error is not None
+    raise last_error
+
+
 def _quote(asset: Asset) -> dict:
     sources: list[tuple[str, Callable[[Asset], pd.DataFrame]]] = []
     if asset.market == "CN" and asset.ak_symbol:
@@ -112,7 +126,7 @@ def _quote(asset: Asset) -> dict:
     errors = []
     for source_name, loader in sources:
         try:
-            history = _clean_history(loader(asset))
+            history = _clean_history(_load_with_retry(loader, asset))
             latest = history.iloc[-1]
             previous = history.iloc[-2]
             close = float(latest["close"])
