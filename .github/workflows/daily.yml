@@ -37,9 +37,10 @@ jobs:
           git diff --cached --quiet || git commit -m "data: refresh market quotes"
           git push
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - uses: actions/upload-pages-artifact@v3
         with:
           path: data
       - id: deployment
         uses: actions/deploy-pages@v4
-
