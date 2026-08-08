@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-08-08T15:03:25+08:00",
+  "timezone": "Asia/Shanghai",
+  "observation_window": {
+    "natural_days": 5,
+    "selection": "latest valid trading day; change versus prior valid close"
+  },
+  "quotes": {
+    "000001.SH": {
+      "name": "上证指数",
+      "symbol": "000001.SH",
+      "market": "CN",
+      "currency": "CNY",
+      "trade_date": "2026-08-07",
+      "close": 3940.0371,
+      "previous_close": 3900.3521,
+      "change_pct": 1.0175,
+      "source": "yfinance"
+    },
+    "399001.SZ": {
+      "name": "深证成指",
+      "symbol": "399001.SZ",
+      "market": "CN",
+      "currency": "CNY",
+      "trade_date": "2026-08-07",
+      "close": 14311.0098,
+      "previous_close": 14110.1201,
+      "change_pct": 1.4237,
+      "source": "yfinance"
+    },
+    "^HSI": {
+      "name": "恒生指数",
+      "symbol": "^HSI",
+      "market": "HK",
+      "currency": "HKD",
+      "trade_date": "2026-08-07",
+      "close": 25668.0293,
+      "previous_close": 25530.2793,
+      "change_pct": 0.5396,
+      "source": "yfinance"
+    },
+    "^DJI": {
+      "name": "道琼斯工业指数",
+      "symbol": "^DJI",
+      "market": "US",
+      "currency": "USD",
+      "trade_date": "2026-08-07",
+      "close": 54036.9297,
+      "previous_close": 53885.1016,
+      "change_pct": 0.2818,
+      "source": "yfinance"
+    },
+    "^GSPC": {
+      "name": "标普500指数",
+      "symbol": "^GSPC",
+      "market": "US",
+      "currency": "USD",
+      "trade_date": "2026-08-07",
+      "close": 7757.6401,
+      "previous_close": 7709.96,
+      "change_pct": 0.6184,
+      "source": "yfinance"
+    },
+    "^IXIC": {
+      "name": "纳斯达克综合指数",
+      "symbol": "^IXIC",
+      "market": "US",
+      "currency": "USD",
+      "trade_date": "2026-08-07",
+      "close": 26690.6191,
+      "previous_close": 26348.3496,
+      "change_pct": 1.299,
+      "source": "yfinance"
+    },
+    "GC=F": {
+      "name": "黄金期货",
+      "symbol": "GC=F",
+      "market": "COMMODITY",
+      "currency": "USD/oz",
+      "trade_date": "2026-08-07",
+      "close": 4340.7002,
+      "previous_close": 4242.0,
+      "change_pct": 2.3267,
+      "source": "yfinance"
+    },
+    "HG=F": {
+      "name": "铜期货",
+      "symbol": "HG=F",
+      "market": "COMMODITY",
+      "currency": "USD/lb",
+      "trade_date": "2026-08-07",
+      "close": 6.5705,
+      "previous_close": 6.687,
+      "change_pct": -1.7422,
+      "source": "yfinance"
+    },
+    "CL=F": {
+      "name": "WTI原油期货",
+      "symbol": "CL=F",
+      "market": "COMMODITY",
+      "currency": "USD/bbl",
+      "trade_date": "2026-08-07",
+      "close": 78.18,
+      "previous_close": 77.29,
+      "change_pct": 1.1515,
+      "source": "yfinance"
+    },
+    "BZ=F": {
+      "name": "布伦特原油期货",
+      "symbol": "BZ=F",
+      "market": "COMMODITY",
+      "currency": "USD/bbl",
+      "trade_date": "2026-08-07",
+      "close": 83.55,
+      "previous_close": 82.49,
+      "change_pct": 1.285,
+      "source": "yfinance"
+    },
+    "002714.SZ": {
+      "name": "牧原股份",
+      "symbol": "002714.SZ",
+      "market": "CN",
+      "currency": "CNY",
+      "trade_date": "2026-08-07",
+      "close": 38.47,
+      "previous_close": 38.37,
+      "change_pct": 0.2606,
+      "source": "yfinance"
+    },
+    "601899.SH": {
+      "name": "紫金矿业",
+      "symbol": "601899.SH",
+      "market": "CN",
+      "currency": "CNY",
+      "trade_date": "2026-08-07",
+      "close": 35.15,
+      "previous_close": 34.5,
+      "change_pct": 1.8841,
+      "source": "yfinance"
+    }
+  },
+  "errors": {
+    "399006.SZ": "akshare: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')); yfinance: ValueError: need at least two valid closes",
+    "^HSTECH": "yfinance: ValueError: empty price history"
+  }
+}
