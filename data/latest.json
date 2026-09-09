@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-09T07:45:36+08:00",
+  "generated_at": "2026-09-09T09:14:34+08:00",
   "timezone": "Asia/Shanghai",
   "observation_window": {
     "natural_days": 5,
@@ -79,9 +79,9 @@
       "market": "COMMODITY",
       "currency": "USD/oz",
       "trade_date": "2026-09-08",
-      "close": 4402.1001,
+      "close": 4399.6001,
       "previous_close": 4429.7998,
-      "change_pct": -0.6253,
+      "change_pct": -0.6817,
       "source": "yfinance"
     },
     "HG=F": {
@@ -90,9 +90,9 @@
       "market": "COMMODITY",
       "currency": "USD/lb",
       "trade_date": "2026-09-08",
-      "close": 6.7735,
+      "close": 6.7895,
       "previous_close": 6.597,
-      "change_pct": 2.6755,
+      "change_pct": 2.918,
       "source": "yfinance"
     },
     "CL=F": {
@@ -101,9 +101,9 @@
       "market": "COMMODITY",
       "currency": "USD/bbl",
       "trade_date": "2026-09-08",
-      "close": 94.4,
+      "close": 94.72,
       "previous_close": 91.48,
-      "change_pct": 3.192,
+      "change_pct": 3.5418,
       "source": "yfinance"
     },
     "BZ=F": {
@@ -112,9 +112,9 @@
       "market": "COMMODITY",
       "currency": "USD/bbl",
       "trade_date": "2026-09-08",
-      "close": 99.49,
+      "close": 99.48,
       "previous_close": 96.28,
-      "change_pct": 3.334,
+      "change_pct": 3.3236,
       "source": "yfinance"
     },
     "002714.SZ": {
