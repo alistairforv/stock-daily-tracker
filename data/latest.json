@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-17T09:24:01+08:00",
+  "generated_at": "2026-09-18T09:17:07+08:00",
   "timezone": "Asia/Shanghai",
   "observation_window": {
     "natural_days": 5,
@@ -13,10 +13,10 @@
       "market": "CN",
       "currency": "CNY",
       "trade_date": "2026-09-16",
-      "close": 3891.6,
-      "previous_close": 3864.28,
+      "close": 3891.6011,
+      "previous_close": 3864.2791,
       "change_pct": 0.707,
-      "source": "akshare"
+      "source": "yfinance"
     },
     "399001.SZ": {
       "name": "深证成指",
@@ -45,10 +45,10 @@
       "symbol": "^DJI",
       "market": "US",
       "currency": "USD",
-      "trade_date": "2026-09-16",
-      "close": 51461.8984,
-      "previous_close": 52093.1094,
-      "change_pct": -1.2117,
+      "trade_date": "2026-09-17",
+      "close": 51778.0391,
+      "previous_close": 51461.8984,
+      "change_pct": 0.6143,
       "source": "yfinance"
     },
     "^GSPC": {
@@ -56,10 +56,10 @@
       "symbol": "^GSPC",
       "market": "US",
       "currency": "USD",
-      "trade_date": "2026-09-16",
-      "close": 7551.8101,
-      "previous_close": 7585.73,
-      "change_pct": -0.4472,
+      "trade_date": "2026-09-17",
+      "close": 7637.7598,
+      "previous_close": 7551.8101,
+      "change_pct": 1.1381,
       "source": "yfinance"
     },
     "^IXIC": {
@@ -67,10 +67,10 @@
       "symbol": "^IXIC",
       "market": "US",
       "currency": "USD",
-      "trade_date": "2026-09-16",
-      "close": 25978.4238,
-      "previous_close": 25981.5703,
-      "change_pct": -0.0121,
+      "trade_date": "2026-09-17",
+      "close": 26418.2988,
+      "previous_close": 25978.4297,
+      "change_pct": 1.6932,
       "source": "yfinance"
     },
     "GC=F": {
@@ -78,10 +78,10 @@
       "symbol": "GC=F",
       "market": "COMMODITY",
       "currency": "USD/oz",
-      "trade_date": "2026-09-16",
-      "close": 4336.6001,
-      "previous_close": 4332.7998,
-      "change_pct": 0.0877,
+      "trade_date": "2026-09-17",
+      "close": 4403.7998,
+      "previous_close": 4387.5,
+      "change_pct": 0.3715,
       "source": "yfinance"
     },
     "HG=F": {
@@ -89,10 +89,10 @@
       "symbol": "HG=F",
       "market": "COMMODITY",
       "currency": "USD/lb",
-      "trade_date": "2026-09-16",
-      "close": 6.473,
-      "previous_close": 6.3685,
-      "change_pct": 1.6409,
+      "trade_date": "2026-09-17",
+      "close": 6.6365,
+      "previous_close": 6.4315,
+      "change_pct": 3.1874,
       "source": "yfinance"
     },
     "CL=F": {
@@ -100,10 +100,10 @@
       "symbol": "CL=F",
       "market": "COMMODITY",
       "currency": "USD/bbl",
-      "trade_date": "2026-09-16",
-      "close": 101.98,
-      "previous_close": 105.83,
-      "change_pct": -3.6379,
+      "trade_date": "2026-09-17",
+      "close": 101.02,
+      "previous_close": 102.43,
+      "change_pct": -1.3766,
       "source": "yfinance"
     },
     "BZ=F": {
@@ -111,10 +111,10 @@
       "symbol": "BZ=F",
       "market": "COMMODITY",
       "currency": "USD/bbl",
-      "trade_date": "2026-09-16",
-      "close": 105.7,
-      "previous_close": 108.75,
-      "change_pct": -2.8046,
+      "trade_date": "2026-09-17",
+      "close": 103.92,
+      "previous_close": 105.83,
+      "change_pct": -1.8048,
       "source": "yfinance"
     },
     "002714.SZ": {
@@ -122,10 +122,10 @@
       "symbol": "002714.SZ",
       "market": "CN",
       "currency": "CNY",
-      "trade_date": "2026-09-16",
-      "close": 41.08,
-      "previous_close": 42.37,
-      "change_pct": -3.0446,
+      "trade_date": "2026-09-17",
+      "close": 41.28,
+      "previous_close": 41.08,
+      "change_pct": 0.4868,
       "source": "yfinance"
     },
     "601899.SH": {
@@ -133,10 +133,10 @@
       "symbol": "601899.SH",
       "market": "CN",
       "currency": "CNY",
-      "trade_date": "2026-09-16",
-      "close": 32.17,
-      "previous_close": 31.68,
-      "change_pct": 1.5467,
+      "trade_date": "2026-09-17",
+      "close": 30.9,
+      "previous_close": 32.17,
+      "change_pct": -3.9478,
       "source": "yfinance"
     }
   },
