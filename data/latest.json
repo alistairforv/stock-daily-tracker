@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-17T13:03:55+08:00",
+  "generated_at": "2026-11-18T12:15:53+08:00",
   "timezone": "Asia/Shanghai",
   "observation_window": {
     "natural_days": 5,
@@ -13,9 +13,9 @@
       "market": "CN",
       "currency": "CNY",
       "trade_date": "2026-11-17",
-      "close": 3602.071,
+      "close": 3584.5791,
       "previous_close": 3602.5701,
-      "change_pct": -0.0139,
+      "change_pct": -0.4994,
       "source": "yfinance"
     },
     "399001.SZ": {
@@ -23,10 +23,10 @@
       "symbol": "399001.SZ",
       "market": "CN",
       "currency": "CNY",
-      "trade_date": "2026-11-17",
-      "close": 10764.8848,
-      "previous_close": 10690.7803,
-      "change_pct": 0.6932,
+      "trade_date": "2026-11-18",
+      "close": 10558.5879,
+      "previous_close": 10638.5195,
+      "change_pct": -0.7513,
       "source": "yfinance"
     },
     "^HSI": {
@@ -34,10 +34,10 @@
       "symbol": "^HSI",
       "market": "HK",
       "currency": "HKD",
-      "trade_date": "2026-11-17",
-      "close": 23571.6094,
-      "previous_close": 23753.8398,
-      "change_pct": -0.7672,
+      "trade_date": "2026-11-18",
+      "close": 23241.4805,
+      "previous_close": 23508.1699,
+      "change_pct": -1.1345,
       "source": "yfinance"
     },
     "^DJI": {
@@ -45,10 +45,10 @@
       "symbol": "^DJI",
       "market": "US",
       "currency": "USD",
-      "trade_date": "2026-11-16",
-      "close": 51608.1719,
-      "previous_close": 52347.5508,
-      "change_pct": -1.4124,
+      "trade_date": "2026-11-17",
+      "close": 50759.3984,
+      "previous_close": 51608.1719,
+      "change_pct": -1.6446,
       "source": "yfinance"
     },
     "^GSPC": {
@@ -56,10 +56,10 @@
       "symbol": "^GSPC",
       "market": "US",
       "currency": "USD",
-      "trade_date": "2026-11-16",
-      "close": 7416.5898,
-      "previous_close": 7561.6699,
-      "change_pct": -1.9186,
+      "trade_date": "2026-11-17",
+      "close": 7340.5298,
+      "previous_close": 7416.5898,
+      "change_pct": -1.0255,
       "source": "yfinance"
     },
     "^IXIC": {
@@ -67,10 +67,10 @@
       "symbol": "^IXIC",
       "market": "US",
       "currency": "USD",
-      "trade_date": "2026-11-16",
-      "close": 24509.7598,
-      "previous_close": 25136.2695,
-      "change_pct": -2.4925,
+      "trade_date": "2026-11-17",
+      "close": 24328.3828,
+      "previous_close": 24509.7598,
+      "change_pct": -0.74,
       "source": "yfinance"
     },
     "GC=F": {
@@ -78,10 +78,10 @@
       "symbol": "GC=F",
       "market": "COMMODITY",
       "currency": "USD/oz",
-      "trade_date": "2026-11-16",
-      "close": 3853.0,
-      "previous_close": 3886.3,
-      "change_pct": -0.8569,
+      "trade_date": "2026-11-17",
+      "close": 3788.1001,
+      "previous_close": 3853.0,
+      "change_pct": -1.6844,
       "source": "yfinance"
     },
     "HG=F": {
@@ -89,10 +89,10 @@
       "symbol": "HG=F",
       "market": "COMMODITY",
       "currency": "USD/lb",
-      "trade_date": "2026-11-16",
-      "close": 5.9975,
-      "previous_close": 6.0795,
-      "change_pct": -1.3488,
+      "trade_date": "2026-11-17",
+      "close": 5.8865,
+      "previous_close": 5.9975,
+      "change_pct": -1.8508,
       "source": "yfinance"
     },
     "CL=F": {
@@ -100,10 +100,10 @@
       "symbol": "CL=F",
       "market": "COMMODITY",
       "currency": "USD/bbl",
-      "trade_date": "2026-11-16",
-      "close": 85.72,
-      "previous_close": 88.56,
-      "change_pct": -3.2069,
+      "trade_date": "2026-11-17",
+      "close": 84.93,
+      "previous_close": 85.72,
+      "change_pct": -0.9216,
       "source": "yfinance"
     },
     "BZ=F": {
@@ -111,10 +111,10 @@
       "symbol": "BZ=F",
       "market": "COMMODITY",
       "currency": "USD/bbl",
-      "trade_date": "2026-11-16",
-      "close": 92.44,
-      "previous_close": 95.84,
-      "change_pct": -3.5476,
+      "trade_date": "2026-11-17",
+      "close": 92.59,
+      "previous_close": 92.44,
+      "change_pct": 0.1623,
       "source": "yfinance"
     },
     "002714.SZ": {
@@ -122,10 +122,10 @@
       "symbol": "002714.SZ",
       "market": "CN",
       "currency": "CNY",
-      "trade_date": "2026-11-17",
-      "close": 45.66,
-      "previous_close": 46.3,
-      "change_pct": -1.3823,
+      "trade_date": "2026-11-18",
+      "close": 45.37,
+      "previous_close": 45.82,
+      "change_pct": -0.9821,
       "source": "yfinance"
     },
     "601899.SH": {
@@ -133,10 +133,10 @@
       "symbol": "601899.SH",
       "market": "CN",
       "currency": "CNY",
-      "trade_date": "2026-11-17",
-      "close": 25.8,
-      "previous_close": 25.96,
-      "change_pct": -0.6163,
+      "trade_date": "2026-11-18",
+      "close": 24.5,
+      "previous_close": 25.99,
+      "change_pct": -5.733,
       "source": "yfinance"
     }
   },
